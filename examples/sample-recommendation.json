@@ -1,0 +1,15 @@
+# Sample Recommendation Output
+{
+  "job_id": "job-12345",
+  "timestamp": 1699876600000,
+  "severity": "HIGH",
+  "scenario": "High CPU Usage: CPU utilization at 85.5%",
+  "recommended_actions": [
+    "Check for inefficient operators or UDFs",
+    "Review parallelism settings and consider increasing parallelism",
+    "Analyze task manager resource allocation",
+    "Look for hot partitions in keyed operations"
+  ],
+  "rationale": "Analysis: High CPU Usage: CPU utilization at 85.5%. CPU utilization is above 80% for extended period",
+  "confidence_score": 0.85
+}
