@@ -1,0 +1,10 @@
+# Sample Log Event
+{
+  "timestamp": 1699876543000,
+  "job_id": "job-12345",
+  "log_level": "ERROR",
+  "message": "Connection timeout to external service",
+  "host": "taskmanager-1",
+  "task_name": "Sink",
+  "exception": "java.net.SocketTimeoutException: Connection timeout"
+}

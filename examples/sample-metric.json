@@ -1,0 +1,9 @@
+# Sample Metric Event
+{
+  "timestamp": 1699876543000,
+  "job_id": "job-12345",
+  "metric_name": "cpu_usage",
+  "metric_value": 85.5,
+  "host": "taskmanager-1",
+  "task_name": "Map"
+}
